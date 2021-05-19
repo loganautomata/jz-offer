@@ -1,19 +1,18 @@
-#ifndef JZ03_H
-#define JZ03_H
+#ifndef JZ10_2_H
+#define JZ10_2_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
-#include<unordered_map>
 
 using namespace std;
 
-class Jz03
+class Jz10_2
 {
 private:
     
 public:
-    int findRepeatNumber(vector<int>& nums);
+    int numWays(int n);
 };
 
 #endif

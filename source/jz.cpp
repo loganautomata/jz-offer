@@ -1,3 +1,3 @@
-#include "jz0.h"
+#include "jz.h"
 
 using namespace std;

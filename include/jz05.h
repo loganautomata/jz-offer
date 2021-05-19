@@ -1,19 +1,18 @@
-#ifndef JZ03_H
-#define JZ03_H
+#ifndef JZ05_H
+#define JZ05_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
-#include<unordered_map>
 
 using namespace std;
 
-class Jz03
+class Jz05
 {
 private:
     
 public:
-    int findRepeatNumber(vector<int>& nums);
+    string replaceSpace(string s);
 };
 
 #endif

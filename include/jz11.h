@@ -1,19 +1,18 @@
-#ifndef JZ03_H
-#define JZ03_H
+#ifndef JZ11_H
+#define JZ11_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
-#include<unordered_map>
 
 using namespace std;
 
-class Jz03
+class Jz11
 {
 private:
     
 public:
-    int findRepeatNumber(vector<int>& nums);
+    int minArray(vector<int>& numbers);
 };
 
 #endif

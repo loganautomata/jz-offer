@@ -1,12 +1,13 @@
-#ifndef JZ0_H
-#define JZ0_H
+#ifndef JZ_H
+#define JZ_H
 
 #include<algorithm>
 #include<vector>
+#include<string>
 
 using namespace std;
 
-class Jz0
+class Jz
 {
 private:
     
