@@ -1,16 +1,16 @@
 #include <iostream>
 #include <sstream>
-#include "jz11.h"
+#include "jz13.h"
 
 using namespace std;
 
 int main()
 {
-	Jz11 solution;
+	Jz13 solution;
 
-	vector<int> numbers {1};
-
-	cout << solution.minArray(numbers) << endl;
+	int m = 2, n = 3, k = 1;
+	
+	cout << solution.movingCount(m, n, k) << endl;
 
 	return 0;
 }
