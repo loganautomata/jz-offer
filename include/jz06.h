@@ -5,7 +5,7 @@
 #include<vector>
 #include<string>
 #include<stack>
-#include"LinstNode.h"
+#include"ListNode.h"
 
 using namespace std;
 

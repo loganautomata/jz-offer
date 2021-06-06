@@ -1,5 +1,5 @@
-#ifndef JZ_H
-#define JZ_H
+#ifndef JZ20_H
+#define JZ20_H
 
 #include<algorithm>
 #include<vector>
@@ -7,7 +7,7 @@
 
 using namespace std;
 
-class Jz
+class Jz20
 {
 private:
     

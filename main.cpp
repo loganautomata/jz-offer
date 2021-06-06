@@ -1,16 +1,17 @@
 #include <iostream>
 #include <sstream>
-#include "jz13.h"
+#include <math.h>
+#include "jz33.h"
 
 using namespace std;
 
 int main()
 {
-	Jz13 solution;
+	Jz33 solution;
 
-	int m = 2, n = 3, k = 1;
-	
-	cout << solution.movingCount(m, n, k) << endl;
+	vector<int> arr = {4, 8, 6, 12, 16, 14, 10};
+
+	cout << solution.verifyPostorder(arr) << endl;
 
 	return 0;
 }

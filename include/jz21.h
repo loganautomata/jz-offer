@@ -1,5 +1,5 @@
-#ifndef JZ_H
-#define JZ_H
+#ifndef JZ21_H
+#define JZ21_H
 
 #include<algorithm>
 #include<vector>
@@ -7,12 +7,12 @@
 
 using namespace std;
 
-class Jz
+class Jz21
 {
 private:
     
 public:
-    
+    vector<int> exchange(vector<int>& nums);
 };
 
 #endif

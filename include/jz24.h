@@ -1,18 +1,19 @@
-#ifndef JZ_H
-#define JZ_H
+#ifndef JZ24_H
+#define JZ24_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
+#include"ListNode.h"
 
 using namespace std;
 
-class Jz
+class Jz24
 {
 private:
     
 public:
-    
+    ListNode* reverseList(ListNode* head);
 };
 
 #endif

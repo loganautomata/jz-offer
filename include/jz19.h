@@ -1,5 +1,5 @@
-#ifndef JZ_H
-#define JZ_H
+#ifndef JZ19_H
+#define JZ19_H
 
 #include<algorithm>
 #include<vector>
@@ -7,12 +7,12 @@
 
 using namespace std;
 
-class Jz
+class Jz19
 {
 private:
     
 public:
-    
+
 };
 
 #endif

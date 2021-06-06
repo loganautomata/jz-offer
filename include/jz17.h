@@ -1,18 +1,19 @@
-#ifndef JZ_H
-#define JZ_H
+#ifndef JZ17_H
+#define JZ17_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
+#include<math.h>
 
 using namespace std;
 
-class Jz
+class Jz17
 {
 private:
     
 public:
-    
+    vector<int> printNumbers(int n);
 };
 
 #endif
