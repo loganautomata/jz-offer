@@ -1,17 +1,22 @@
 #include <iostream>
 #include <sstream>
 #include <math.h>
-#include "jz33.h"
+#include "lc912.h"
 
 using namespace std;
 
 int main()
 {
-	Jz33 solution;
+	LC912 solution;
 
 	vector<int> arr = {4, 8, 6, 12, 16, 14, 10};
 
-	cout << solution.verifyPostorder(arr) << endl;
+	for (auto i : solution.sortArray(arr))
+	{
+		cout << i << "  ";
+	}
+
+	cout << endl;
 
 	return 0;
 }

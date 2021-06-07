@@ -1,15 +1,15 @@
-#include "lt912.h"
+#include "lc912.h"
 
 using namespace std;
 
-vector<int> sortArray(vector<int>& nums)
+vector<int> LC912::sortArray(vector<int>& nums)
 {
     QuickSort(nums, make_pair(0, nums.size()));
 
     return nums;
 }
 
-void QuickSort(vector<int>& nums, pair<int, int> range)
+void LC912::QuickSort(vector<int>& nums, pair<int, int> range)
 {
     if (range.first + 1 == range.second) return; // 迭代终止条件, 区间中只有一个数时终止.
 
@@ -24,7 +24,7 @@ void QuickSort(vector<int>& nums, pair<int, int> range)
         }
     }
 
-    swap(nums[middle++], nums[range.first]); // 将分治数放在序列中间
+    swap(nums[middle], nums[range.first]); // 将分治数放在序列中间
 
     QuickSort(nums, make_pair(range.first, middle + 1));
     QuickSort(nums, make_pair(middle + 1, range.second));
