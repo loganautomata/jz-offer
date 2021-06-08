@@ -1,20 +1,17 @@
 #include <iostream>
 #include <sstream>
 #include <math.h>
-#include "lc912.h"
+#include "lc9.h"
 
 using namespace std;
 
 int main()
 {
-	LC912 solution;
+	LC9 solution;
 
-	vector<int> arr = {4, 8, 6, 12, 16, 14, 10};
+	int x = 121;
 
-	for (auto i : solution.sortArray(arr))
-	{
-		cout << i << "  ";
-	}
+	solution.isPalindrome(x);
 
 	cout << endl;
 
