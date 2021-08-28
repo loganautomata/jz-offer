@@ -1,17 +1,18 @@
-#ifndef JZ19_H
-#define JZ19_H
+#ifndef JZ44_H
+#define JZ44_H
 
 #include <algorithm>
 #include <vector>
 #include <string>
+#include <cmath>
 
 using namespace std;
 
-class Jz19
+class Jz44
 {
 private:
 public:
-    bool isMatch(string s, string p);
+    int findNthDigit(int n);
 };
 
 #endif

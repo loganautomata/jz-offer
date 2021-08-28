@@ -2,35 +2,40 @@
 
 using namespace std;
 
-void Jz36::dfs(Node *pre, Node *node)
+void Jz36::dfs(Node *cur)
 {
-    if (node == nullptr)
-        return; // 迭代终止条件.
+    if (cur == nullptr)
+        return;
 
-    dfs(node, node->left); // 中序遍历
-    Node *next = node->right;
-    if (head == nullptr && node->left == nullptr) head = node; // 确定头节点
+    dfs(cur->left);
+
+    if (head == nullptr)
+    {
+        head = cur;
+        pre = cur;
+    }
     else
     {
-        pre->right = node;
-        node->left = pre;
-    } // 建立节点的双向连接
-    dfs(node, next);
+        pre->right = cur;
+        cur->left = pre;
+        pre = cur;
+    }
+
+    dfs(cur->right);
+
+    return;
 }
 
 Node *Jz36::treeToDoublyList(Node *root)
 {
-    dfs(nullptr, root);
+    if (root == nullptr)
+        return nullptr;
 
-    // 构造首尾节点循环
-    for (Node *i = head; i != nullptr; i = i->right)
-    {
-        if (i->right == nullptr)
-        {
-            i->right == head;
-            head->left = i;
-        }
-    }
+    dfs(root);
+
+    // 首尾相连
+    head->left = pre;
+    pre->right = head;
 
     return head;
 }

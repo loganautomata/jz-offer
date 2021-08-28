@@ -1,20 +1,21 @@
-#ifndef JZ35_H
-#define JZ35_H
+#ifndef JZ48_H
+#define JZ48_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
 #include<unordered_map>
-#include"RandNode.h"
+#include<queue>
+#include<unordered_set>
 
 using namespace std;
 
-class Jz35
+class Jz48
 {
 private:
     
 public:
-    Node* copyRandomList(Node* head);
+    int lengthOfLongestSubstring(string s);
 };
 
 #endif

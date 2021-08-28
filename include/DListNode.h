@@ -4,8 +4,8 @@ using namespace std;
 
 struct DListNode
 {
-    int key, val;
+    int val;
     DListNode *pre;
     DListNode *next;
-    DListNode(int k, int v) : key(k), val(v), pre(nullptr), next(nullptr){};
+    DListNode(int k, int v) :val(v), pre(nullptr), next(nullptr){};
 };

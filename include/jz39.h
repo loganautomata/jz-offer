@@ -1,20 +1,19 @@
-#ifndef JZ35_H
-#define JZ35_H
+#ifndef Jz39_H
+#define Jz39_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
 #include<unordered_map>
-#include"RandNode.h"
 
 using namespace std;
 
-class Jz35
+class Jz39
 {
 private:
     
 public:
-    Node* copyRandomList(Node* head);
+    int majorityElement(vector<int>& nums);
 };
 
 #endif

@@ -1,5 +1,5 @@
-#ifndef LC9_H
-#define LC9_H
+#ifndef JZ58_2_H
+#define JZ58_2_H
 
 #include<algorithm>
 #include<vector>
@@ -7,12 +7,12 @@
 
 using namespace std;
 
-class LC9
+class Jz58_2
 {
 private:
     
 public:
-    bool isPalindrome(int x);
+    string reverseLeftWords(string s, int n);
 };
 
 #endif

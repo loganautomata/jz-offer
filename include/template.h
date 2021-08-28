@@ -1,5 +1,5 @@
-#ifndef JZ19_H
-#define JZ19_H
+#ifndef _H
+#define _H
 
 #include <algorithm>
 #include <vector>
@@ -7,11 +7,10 @@
 
 using namespace std;
 
-class Jz19
+class
 {
 private:
 public:
-    bool isMatch(string s, string p);
 };
 
 #endif

@@ -11,8 +11,9 @@ using namespace std;
 class Jz36
 {
 private:
-    Node *head;
-    void dfs(Node *pre, Node *node);
+    Node *head = nullptr;
+    Node *pre = nullptr;
+    void dfs(Node *cur); // 中序遍历
 
 public:
     Node *treeToDoublyList(Node *root);

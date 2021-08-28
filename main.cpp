@@ -1,19 +1,13 @@
 #include <iostream>
 #include <sstream>
 #include <math.h>
-#include "lc9.h"
+#include "jz45.h"
 
 using namespace std;
 
 int main()
 {
-	LC9 solution;
-
-	int x = 121;
-
-	solution.isPalindrome(x);
-
-	cout << endl;
+	Jz45 solution;
 
 	return 0;
 }

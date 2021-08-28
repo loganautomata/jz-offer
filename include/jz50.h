@@ -1,20 +1,20 @@
-#ifndef JZ35_H
-#define JZ35_H
+#ifndef JZ50_H
+#define JZ50_H
 
 #include<algorithm>
 #include<vector>
 #include<string>
+#include<unordered_set>
 #include<unordered_map>
-#include"RandNode.h"
 
 using namespace std;
 
-class Jz35
+class Jz50
 {
 private:
     
 public:
-    Node* copyRandomList(Node* head);
+    char firstUniqChar(string s);
 };
 
 #endif
