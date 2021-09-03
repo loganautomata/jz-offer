@@ -45,3 +45,20 @@ int Jz62::lastRemaining(int n, int m)
 
     return res;
 }
+
+// int Jz62::lastRemaining(int n, int m)
+// {
+//     vector<int> nums_circle(n, 0);
+
+//     for (int i = 0; i < n; i++)
+//         nums_circle[i] = i;
+
+//     for (int i = 0, pos = 0; i < n - 1; i++)
+//     {
+//         int erase_num = (pos + (m - 1) % nums_circle.size()) % nums_circle.size();
+//         nums_circle.erase(nums_circle.begin() + erase_num);
+//         pos = erase_num;
+//     }
+
+//     return nums_circle.front();
+// }
